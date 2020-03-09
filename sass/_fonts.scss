@@ -4,9 +4,22 @@
     src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Lato-Regular.woff') format('woff'),
         url('../fonts/Lato-Regular.ttf') format('truetype');
-    font-weight: normal;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Black';
+    src: url('../fonts/Lato-Black.ttf') format('truetype');
+    font-style: normal;
+}
+
 
 @font-face {
     font-family: 'VarelaRound';
@@ -33,6 +46,10 @@
     font-family: 'Lato Light', sans-serif;
 }
 
+@mixin latoblack {
+    font-family: 'Lato Black', sans-serif;
+}
+
 @mixin bold {
-    font-family: 'VarelaRound', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
